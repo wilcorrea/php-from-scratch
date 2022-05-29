@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  php-from-scratch:
+    image: webdevops/php-nginx:8.1
+    container_name: php-from-scratch
+    working_dir: /var/www/app
+    volumes:
+      - .:/var/www/app
+    environment:
+      - WEB_DOCUMENT_ROOT=/var/www/app/public
+    ports:
+      - "8080:80"

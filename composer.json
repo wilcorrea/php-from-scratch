@@ -1,0 +1,11 @@
+{
+  "name": "wilcorrea/php-from-scratch",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Scratch\\": "src/"
+    }
+  },
+  "require": {}
+}
