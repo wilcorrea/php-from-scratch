@@ -9,9 +9,11 @@
   },
   "require": {
     "slim/slim": "^4.10",
-    "slim/psr7": "^1.5"
-  }
-  ,
+    "slim/psr7": "^1.5",
+    "jajo/jsondb": "^3.0",
+    "phpzm/phpee": "^1.0",
+    "php-di/php-di": "^6.4"
+  },
   "require-dev": {
     "roave/security-advisories": "dev-latest"
   }
