@@ -7,5 +7,12 @@
       "Scratch\\": "src/"
     }
   },
-  "require": {}
+  "require": {
+    "slim/slim": "^4.10",
+    "slim/psr7": "^1.5"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
 }
