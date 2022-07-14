@@ -1,7 +1,0 @@
-POST http://localhost:8080/general/contacts
-Content-Type: application/json
-
-{
-  "name": "John Doe",
-  "email": "jhon.doe@gmail.com"
-}

@@ -1,0 +1,6 @@
+POST http://localhost:3000/vote
+Content-Type: application/json
+
+{
+  "vote": "Marcel que é o cara"
+}

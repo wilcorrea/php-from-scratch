@@ -1,0 +1,16 @@
+version: '3.7'
+
+# Networks
+networks:
+  # Internal network
+  internal:
+    driver: bridge
+
+# Services
+services:
+
+  # PHP / Nginx
+  php-from-scratch-app:
+    image: webdevops/php-nginx:8.1
+    environment:
+      - APP_ENV=production
